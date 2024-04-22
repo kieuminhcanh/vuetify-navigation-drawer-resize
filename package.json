@@ -1,74 +1,76 @@
 {
-    "name": "vuetify-navigation-drawer-resize",
-    "version": "0.0.1",
-    "private": false,
-    "description": "Navigation drawer resize support.",
-    "author": "Ken Kieu",
-    "license": "MIT",
-    "files": [
-        "dist"
-    ],
-    "keywords": [
-        "vue",
-        "vite",
-        "vuetify",
-        "navigation-drawer",
-        "resize"
-    ],
-    "type": "module",
-    "main": "./dist/vuetify-navigation-drawer-resize.umd.cjs",
-    "module": "./dist/vuetify-navigation-drawer-resize.js",
-    "types": "./dist/index.d.ts",
-    "exports": {
-        ".": {
-            "import": "./dist/vuetify-navigation-drawer-resize.js",
-            "require": "./dist/vuetify-navigation-drawer-resize.umd.cjs"
-        },
-        "./*": "./dist/vuetify-navigation-drawer-resize.js"
+  "name": "vuetify-navigation-drawer-resize",
+  "version": "0.0.3",
+  "private": false,
+  "description": "Navigation drawer resize support.",
+  "author": "Ken Kieu",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vue",
+    "vite",
+    "vuetify",
+    "navigation-drawer",
+    "resize"
+  ],
+  "type": "module",
+  "main": "./dist/vuetify-navigation-drawer-resize.umd.cjs",
+  "module": "./dist/vuetify-navigation-drawer-resize.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vuetify-navigation-drawer-resize.js",
+      "require": "./dist/vuetify-navigation-drawer-resize.umd.cjs"
     },
-    "scripts": {
-        "dev": "vite",
-        "build": "vue-tsc && vite build",
-        "preview": "vite preview",
-        "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-        "format": "prettier .  --write --ignore-path .gitignore",
-        "prepare": "husky install",
-        "commit": "git-cz"
-    },
-    "dependencies": {
-        "vue": "^3.4.24"
-    },
-    "devDependencies": {
-        "@rushstack/eslint-patch": "^1.10.2",
-        "@types/node": "^20.12.7",
-        "@vitejs/plugin-vue": "^5.0.4",
-        "@vue/eslint-config-prettier": "^9.0.0",
-        "@vue/eslint-config-typescript": "^13.0.0",
-        "@vue/tsconfig": "^0.5.1",
-        "@vueuse/core": "^10.9.0",
-        "cz-conventional-changelog": "3.3.0",
-        "eslint": "^8.57.0",
-        "eslint-plugin-vue": "^9.25.0",
-        "husky": "^9.0.11",
-        "lint-staged": "^15.2.2",
-        "npm-run-all": "^4.1.5",
-        "pathe": "^1.1.2",
-        "prettier": "^3.2.5",
-        "sass": "^1.75.0",
-        "semantic-release": "^23.0.8",
-        "typescript": "~5.4.5",
-        "vite": "^5.2.10",
-        "vite-plugin-dts": "^3.8.3",
-        "vue-tsc": "^2.0.14",
-        "vuetify": "^3.5.16"
-    },
-    "lint-staged": {
-        "*.{js,ts,vue}": "eslint --fix",
-        "*.{js,ts,vue,css,scss,json,md}": "prettier --write"
-    },
-    "config": {
-        "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog"
-        }
+    "./*": "./dist/vuetify-navigation-drawer-resize.js"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "format": "prettier .  --write --ignore-path .gitignore",
+    "prepare": "husky install",
+    "commit": "git-cz"
+  },
+  "dependencies": {
+    "vue": "^3.4.24"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.10.2",
+    "@types/node": "^20.12.7",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "@vue/tsconfig": "^0.5.1",
+    "@vueuse/core": "^10.9.0",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.25.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "npm-run-all": "^4.1.5",
+    "pathe": "^1.1.2",
+    "prettier": "^3.2.5",
+    "sass": "^1.75.0",
+    "semantic-release": "^23.0.8",
+    "typescript": "~5.4.5",
+    "vite": "^5.2.10",
+    "vite-plugin-dts": "^3.8.3",
+    "vite-plugin-lib-inject-css": "^2.0.1",
+    "vue-tsc": "^2.0.14",
+    "vuetify": "^3.5.16",
+    "vuetify-navigation-drawer-resize": "0.0.3"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": "eslint --fix",
+    "*.{js,ts,vue,css,scss,json,md}": "prettier --write"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
+  }
 }
