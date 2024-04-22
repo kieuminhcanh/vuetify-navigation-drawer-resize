@@ -1,3 +1,6 @@
+![image](https://github.com/kieuminhcanh/vuetify-navigation-drawer-resize/assets/136077/0be644b2-5bea-412a-9574-cb370c0b9b5c)
+
+
 # Use
 
 ```vue
