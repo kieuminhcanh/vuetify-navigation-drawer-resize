@@ -1,12 +1,19 @@
 # Use
 
 ```vue
-<VNavigationDrawerResize :modelValue="true" permanent>
+<template>
+  <VNavigationDrawerResize :modelValue="true" permanent>
     <!-- Navigation Content -->
-</VNavigationDrawerResize>
+  </VNavigationDrawerResize>
+</template>
+
+<script setup>
+import { VNavigationDrawerResize } from 'vuetify-navigation-drawer-resize'
+</script>
 ```
 
 ## Model Extend
+
 - v-model:width
 
 ## Props extend
@@ -17,7 +24,9 @@
 - resizeColor: string - default (primary)
 
 ## Event extend
+
 - @update:resizing: boolean
 
 ## Support all props from source
+
 [Navigation Drawer API](https://vuetifyjs.com/en/components/navigation-drawers/)
